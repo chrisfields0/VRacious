@@ -32,7 +32,7 @@ public:
 public: 
 
 	UFUNCTION(BlueprintCallable, Category = "Grab Interaction")
-	void ShowRing();
+	void ShowRing() {}
 /*
  * Getters and Setters for Properties
  */
