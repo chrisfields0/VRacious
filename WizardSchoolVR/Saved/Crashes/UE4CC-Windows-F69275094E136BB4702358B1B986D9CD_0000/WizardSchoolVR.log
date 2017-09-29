@@ -1,0 +1,514 @@
+﻿Log file open, 09/29/17 13:07:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: WizardSchoolVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1504937793) SRandInit(-1504937793).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.152036
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/elsbeth.larkin/Documents/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.29-20.07.41:169][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-20.07.41:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.29-20.07.41:190][  0]LogInit: Computer: DIT2864US
+[2017.09.29-20.07.41:190][  0]LogInit: User: elsbethlarkin
+[2017.09.29-20.07.41:190][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.29-20.07.41:190][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2017.09.29-20.07.41:190][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.29-20.07.41:190][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.29-20.07.41:190][  0]LogMemory: Process Physical Memory: 278.76 MB used, 278.76 MB peak
+[2017.09.29-20.07.41:190][  0]LogMemory: Process Virtual Memory: 282.18 MB used, 282.18 MB peak
+[2017.09.29-20.07.41:190][  0]LogMemory: Physical Memory: 6997.07 MB used,  9302.09 MB free, 16299.16 MB total
+[2017.09.29-20.07.41:190][  0]LogMemory: Virtual Memory: 676.79 MB used,  9302.09 MB free, 134217728.00 MB total
+[2017.09.29-20.07.41:316][  0]LogInit: Using OS detected language (en-US).
+[2017.09.29-20.07.41:316][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.29-20.07.41:318][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.29-20.07.41:827][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.29-20.07.41:894][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.29-20.07.41:894][  0]LogD3D11RHI:       4062/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.29-20.07.41:895][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.29-20.07.41:895][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.29-20.07.41:895][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.29-20.07.41:898][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.29-20.07.41:899][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.29-20.07.41:899][  0]LogWindows: EnumDisplayDevices:
+[2017.09.29-20.07.41:899][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.09.29-20.07.41:899][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.29-20.07.41:899][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.29-20.07.41:899][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.29-20.07.41:899][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.29-20.07.41:899][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.29-20.07.41:899][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.09.29-20.07.41:899][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.09.29-20.07.41:899][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.29-20.07.41:921][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.29-20.07.41:931][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.29-20.07.42:024][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../GitHub/VRacious/WizardSchoolVR/Intermediate/Shaders/WorkingDirectory/1856/).
+[2017.09.29-20.07.42:024][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elsbeth.larkin/AppData/Local/Temp/UnrealShaderWorkingDir/59A24163405563D4A34488B71D627EA0/'.
+[2017.09.29-20.07.42:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.29-20.07.42:708][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.29-20.07.42:746][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.29-20.07.42:782][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.29-20.07.42:819][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.29-20.07.42:856][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.29-20.07.42:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.29-20.07.42:927][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.29-20.07.42:961][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.29-20.07.42:992][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.29-20.07.43:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.29-20.07.43:059][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.29-20.07.43:094][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.29-20.07.43:128][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.29-20.07.43:162][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.29-20.07.43:198][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.29-20.07.43:267][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.29-20.07.43:267][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.29-20.07.43:293][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.29-20.07.43:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.29-20.07.43:386][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.29-20.07.43:420][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.29-20.07.43:454][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.29-20.07.43:488][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.29-20.07.43:522][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.29-20.07.43:522][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.29-20.07.43:852][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/VRacious/WizardSchoolVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/VRacious/WizardSchoolVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.29-20.07.43:918][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.29-20.07.43:930][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.29-20.07.43:942][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.29-20.07.43:960][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.29-20.07.43:960][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.29-20.07.43:960][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-20.07.43:960][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-20.07.44:144][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.09.29-20.07.44:223][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-20.07.44:320][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.29-20.07.44:531][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.29-20.07.44:558][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.29-20.07.44:558][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.29-20.07.44:558][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.29-20.07.44:558][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.29-20.07.44:558][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.29-20.07.44:795][  0]LogNetVersion: WizardSchoolVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1273405168)
+[2017.09.29-20.07.44:932][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.028482 seconds
+[2017.09.29-20.07.44:936][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.29-20.07.44:936][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.29-20.07.44:936][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.29-20.07.44:977][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.29-20.07.46:697][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.29-20.07.46:726][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.29-20.07.47:200][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.29-20.07.47:458][  0]SourceControl: Source control is disabled
+[2017.09.29-20.07.47:458][  0]SourceControl: Source control is disabled
+[2017.09.29-20.07.47:491][  0]SourceControl: Source control is disabled
+[2017.09.29-20.07.47:523][  0]SourceControl: Source control is disabled
+[2017.09.29-20.07.47:905][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.29-20.07.48:060][  0]LogOcInput: OculusInput pre-init called
+[2017.09.29-20.07.48:230][  0]LogEngine: Initializing Engine...
+[2017.09.29-20.07.48:231][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.29-20.07.48:404][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.29-20.07.48:404][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.29-20.07.48:499][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.29-20.07.48:508][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.07.48:534][  0]LogInit: FAudioDevice initialized.
+[2017.09.29-20.07.48:607][  0]LogDerivedDataCache: Saved boot cache 0.07s 106MB C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.29-20.07.48:835][  0]LogInit: Texture streaming: Enabled
+[2017.09.29-20.07.48:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.29-20.07.49:074][  0]LogInit: Transaction tracking system initialized
+[2017.09.29-20.07.49:287][  0]BlueprintLog: New page: Editor Load
+[2017.09.29-20.07.49:909][  0]LocalizationService: Localization service is disabled
+[2017.09.29-20.07.50:426][  0]LogConsoleResponse: Display: 
+[2017.09.29-20.07.50:544][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.29-20.07.50:544][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.29-20.07.50:544][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.29-20.07.51:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/' took 0.01s
+[2017.09.29-20.07.51:225][  0]SourceControl: Source control is disabled
+[2017.09.29-20.07.51:225][  0]Cmd: MAP LOAD FILE="../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.29-20.07.51:225][  0]LightingResults: New page: Lighting Build
+[2017.09.29-20.07.51:253][  0]MapCheck: New page: Map Check
+[2017.09.29-20.07.51:253][  0]LightingResults: New page: Lighting Build
+[2017.09.29-20.07.51:325][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.07.51:331][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.29-20.07.51:340][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.29-20.07.51:376][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.848ms to complete.
+[2017.09.29-20.07.51:376][  0]LogFileHelpers: Loading map 'StartupMap' took 0.152
+[2017.09.29-20.07.51:485][  0]LogCollectionManager: Loaded 0 collections in 0.001020 seconds
+[2017.09.29-20.07.51:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Saved/Collections/' took 0.01s
+[2017.09.29-20.07.51:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Developers/elsbethlarkin/Collections/' took 0.01s
+[2017.09.29-20.07.51:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Collections/' took 0.01s
+[2017.09.29-20.07.51:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.29-20.07.51:557][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2390 classes and 502 folders.
+[2017.09.29-20.07.51:600][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.29-20.07.51:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.29-20.07.51:652][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.29-20.07.51:666][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-20.07.51:668][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.29-20.07.51:673][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.29-20.07.51:784][  0]LogRenderer: Reallocating scene render targets to support 548x1124 Format 26 NumSamples 1 (Frame:1).
+[2017.09.29-20.07.51:945][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.29-20.07.51:945][  0]LogLoad: (Engine Initialization) Total time: 12.21 seconds
+[2017.09.29-20.07.51:945][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.29-20.07.51:945][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.29-20.07.51:954][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.29-20.07.51:968][  0]LogAssetRegistry: Asset discovery search completed in 7.8465 seconds
+[2017.09.29-20.07.51:969][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.29-20.07.51:969][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.09.29-20.07.51:971][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.29-20.07.51:996][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-20.08.26:665][143]LogActorFactory: Actor Factory created Plane
+[2017.09.29-20.08.26:668][143]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.09.29-20.08.27:948][291]LogActorFactory: Actor Factory created Plane
+[2017.09.29-20.09.15:519][698]SourceControl: On branch Elsbeth's-Pit-in-Hell
+[2017.09.29-20.09.15:519][698]SourceControl: Changes not staged for commit:
+[2017.09.29-20.09.15:519][698]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.29-20.09.15:519][698]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.29-20.09.15:519][698]SourceControl: 	modified:   WizardSchoolVR/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.29-20.09.15:519][698]SourceControl: 	deleted:    WizardSchoolVR/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudio.dll
+[2017.09.29-20.09.15:519][698]SourceControl: 	modified:   WizardSchoolVR/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudio.pdb
+[2017.09.29-20.09.15:519][698]SourceControl: 	deleted:    WizardSchoolVR/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.dll
+[2017.09.29-20.09.15:519][698]SourceControl: 	modified:   WizardSchoolVR/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.pdb
+[2017.09.29-20.09.15:519][698]SourceControl: 	modified:   WizardSchoolVR/WizardSchoolVR.uproject
+[2017.09.29-20.09.15:519][698]SourceControl: Untracked files:
+[2017.09.29-20.09.15:519][698]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.29-20.09.15:519][698]SourceControl: 	WizardSchoolVR/Content/PotionsStuff/
+[2017.09.29-20.09.15:519][698]SourceControl: 	WizardSchoolVR/Intermediate/
+[2017.09.29-20.09.15:519][698]SourceControl: 	WizardSchoolVR/Plugins/Wwise/Intermediate/
+[2017.09.29-20.09.15:519][698]SourceControl: 	WizardSchoolVR/Saved/
+[2017.09.29-20.09.15:519][698]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.29-20.09.25:581][882]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-20.09.25:689][882]LogSavePackage: Save=61.01ms
+[2017.09.29-20.09.25:689][882]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/StartupMap636E587D4C50C6A23A5D4A9F00D23E7D.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2017.09.29-20.09.25:691][882]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.09.29-20.09.25:703][882]LogFileHelpers: Saving map 'StartupMap' took 0.117
+[2017.09.29-20.09.36:122][ 27]LogRenderer: Reallocating scene render targets to support 616x1124 Format 26 NumSamples 1 (Frame:11168).
+[2017.09.29-20.09.38:695][326]LogRenderer: Reallocating scene render targets to support 620x1124 Format 26 NumSamples 1 (Frame:11461).
+[2017.09.29-20.09.38:737][327]LogRenderer: Reallocating scene render targets to support 624x1124 Format 26 NumSamples 1 (Frame:11463).
+[2017.09.29-20.09.38:773][328]LogRenderer: Reallocating scene render targets to support 652x1124 Format 26 NumSamples 1 (Frame:11465).
+[2017.09.29-20.09.38:816][329]LogRenderer: Reallocating scene render targets to support 684x1124 Format 26 NumSamples 1 (Frame:11467).
+[2017.09.29-20.09.38:855][330]LogRenderer: Reallocating scene render targets to support 752x1124 Format 26 NumSamples 1 (Frame:11469).
+[2017.09.29-20.09.38:891][331]LogRenderer: Reallocating scene render targets to support 808x1124 Format 26 NumSamples 1 (Frame:11471).
+[2017.09.29-20.09.38:931][332]LogRenderer: Reallocating scene render targets to support 832x1124 Format 26 NumSamples 1 (Frame:11473).
+[2017.09.29-20.09.38:972][333]LogRenderer: Reallocating scene render targets to support 864x1124 Format 26 NumSamples 1 (Frame:11475).
+[2017.09.29-20.09.39:017][334]LogRenderer: Reallocating scene render targets to support 896x1124 Format 26 NumSamples 1 (Frame:11477).
+[2017.09.29-20.09.39:057][335]LogRenderer: Reallocating scene render targets to support 908x1124 Format 26 NumSamples 1 (Frame:11479).
+[2017.09.29-20.09.39:115][336]LogRenderer: Reallocating scene render targets to support 916x1124 Format 26 NumSamples 1 (Frame:11481).
+[2017.09.29-20.09.39:158][337]LogRenderer: Reallocating scene render targets to support 936x1124 Format 26 NumSamples 1 (Frame:11483).
+[2017.09.29-20.09.39:205][337]LogRenderer: Reallocating scene render targets to support 964x1124 Format 26 NumSamples 1 (Frame:11485).
+[2017.09.29-20.09.39:275][339]LogRenderer: Reallocating scene render targets to support 1000x1124 Format 26 NumSamples 1 (Frame:11487).
+[2017.09.29-20.09.39:328][340]LogRenderer: Reallocating scene render targets to support 1016x1124 Format 26 NumSamples 1 (Frame:11489).
+[2017.09.29-20.09.39:380][341]LogRenderer: Reallocating scene render targets to support 1048x1124 Format 26 NumSamples 1 (Frame:11491).
+[2017.09.29-20.09.39:435][342]LogRenderer: Reallocating scene render targets to support 1064x1124 Format 26 NumSamples 1 (Frame:11493).
+[2017.09.29-20.09.39:487][343]LogRenderer: Reallocating scene render targets to support 1080x1124 Format 26 NumSamples 1 (Frame:11495).
+[2017.09.29-20.09.46:666][188]LogSlate: Took 0.001893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.29-20.09.52:723][906]LogGameplayTags: Warning: Invalid GameplayTag Ingredients found while loading property /Game/PotionsStuff/TeacherCuldrun.TeacherCuldrun_C:Ing.
+[2017.09.29-20.09.52:774][906]LogMaterial: Missing cached shader map for material InsideCuldrun, compiling. 
+[2017.09.29-20.09.52:801][906]LogMaterial: Missing cached shader map for material Blue, compiling. 
+[2017.09.29-20.09.52:819][906]LogMaterial: Missing cached shader map for material InsideCuldrunStudent, compiling. 
+[2017.09.29-20.10.17:249][787]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.10.23:784][565]LogActorFactory: Actor Factory created Cube
+[2017.09.29-20.10.25:224][737]LogActorFactory: Actor Factory created Cube
+[2017.09.29-20.10.29:613][257]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.10.31:613][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.10.38:775][318]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.10.39:849][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.10.48:611][487]Cmd: TRANSACTION UNDO
+[2017.09.29-20.10.48:611][487]LogEditorTransaction: Undo Set actor scale
+[2017.09.29-20.10.48:620][487]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-20.10.55:397][290]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.11.00:594][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.11.01:739][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.11.04:366][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.11.11:201][160]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.11.20:604][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.11.22:039][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.09.29-20.11.26:457][947]LogEditorViewport: Clicking on Actor (LMB): StudentCuldrun_C (StudentCuldrun)
+[2017.09.29-20.11.28:737][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.11.44:166][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.12.15:047][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.09.29-20.12.16:570][918]LogEditorViewport: Clicking on Actor (LMB): Ingredient1_C (Ingredient1)
+[2017.09.29-20.12.40:555][742]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2017.09.29-20.13.02:946][401]LogEditorViewport: Clicking on Actor (LMB): Ingredient1_C (Ingredient1)
+[2017.09.29-20.13.21:374][583]LogMaterial: Missing cached shader map for material Purple, compiling. 
+[2017.09.29-20.13.28:734][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.09.29-20.13.29:899][590]LogEditorViewport: Clicking on Actor (LMB): Ingredient4_C (Ingredient4)
+[2017.09.29-20.13.46:330][527]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2017.09.29-20.14.05:271][770]LogMaterial: Missing cached shader map for material Yellow, compiling. 
+[2017.09.29-20.14.19:526][458]LogEditorViewport: Clicking on Actor (LMB): Ingredient4_C (Ingredient4)
+[2017.09.29-20.14.49:121][995]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-20.14.49:191][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-20.14.49:191][995]PIE: New page: PIE session: StartupMap (Sep 29, 2017, 6:14:49 AM)
+[2017.09.29-20.14.49:191][995]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2017.09.29-20.14.49:196][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005139s)
+[2017.09.29-20.14.49:197][995]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.14.49:197][995]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.09.29-20.14.49:197][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.006060s)
+[2017.09.29-20.14.49:218][995]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.14.49:226][995]LogInit: FAudioDevice initialized.
+[2017.09.29-20.14.49:265][995]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.29-20.14.49:265][995]LogLoad: Game class is 'GameModeBase'
+[2017.09.29-20.14.49:267][995]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2017.09.29-13.14.49
+[2017.09.29-20.14.49:267][995]LogWorld: Bringing up level for play took: 0.001497
+[2017.09.29-20.14.49:314][995]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.09.29-20.14.49:316][995]LogScriptCore: Warning: Script Msg: Attempted to set an invalid index on array CorrectFormula [7/6]!
+[2017.09.29-20.14.49:316][995]LogBlueprintUserMessages: [TeacherCuldrun_754] SetCorrect
+[2017.09.29-20.14.49:316][995]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.642
+[2017.09.29-20.14.55:371][718]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.14.59:024][155]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.15.10:472][525]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.15.40:085][ 72]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.15.40:135][ 78]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.15.40:135][ 78]LogBlueprintUserMessages: [StudentCuldrun_802] Ingredient4_2
+[2017.09.29-20.15.44:799][628]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-20.15.44:810][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-20.15.44:810][628]PIE: New page: PIE session: StartupMap (Sep 29, 2017, 6:15:44 AM)
+[2017.09.29-20.15.44:810][628]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2017.09.29-20.15.44:814][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003460s)
+[2017.09.29-20.15.44:814][628]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.15.44:814][628]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2017.09.29-20.15.44:814][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004119s)
+[2017.09.29-20.15.44:828][628]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.15.44:834][628]LogInit: FAudioDevice initialized.
+[2017.09.29-20.15.44:862][628]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.29-20.15.44:862][628]LogLoad: Game class is 'GameModeBase'
+[2017.09.29-20.15.44:864][628]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2017.09.29-13.15.44
+[2017.09.29-20.15.44:864][628]LogWorld: Bringing up level for play took: 0.001523
+[2017.09.29-20.15.44:865][628]LogScriptCore: Warning: Script Msg: Attempted to set an invalid index on array CorrectFormula [7/6]!
+[2017.09.29-20.15.44:865][628]LogBlueprintUserMessages: [TeacherCuldrun_754] SetCorrect
+[2017.09.29-20.15.44:865][628]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.192
+[2017.09.29-20.15.52:317][520]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.15.52:317][520]LogBlueprintUserMessages: [StudentCuldrun_802] Ingredient4_2
+[2017.09.29-20.15.57:032][ 84]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.16.02:883][784]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.16.04:017][920]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.16.04:017][920]LogBlueprintUserMessages: [StudentCuldrun_802] Ingredient1_2
+[2017.09.29-20.16.10:691][718]LogBlueprintUserMessages: [StudentCuldrun_802] Hit
+[2017.09.29-20.16.10:691][718]LogBlueprintUserMessages: [StudentCuldrun_802] Ingredient3_2
+[2017.09.29-20.16.21:097][956]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-20.16.21:108][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-20.16.21:108][956]PIE: New page: PIE session: StartupMap (Sep 29, 2017, 6:16:21 AM)
+[2017.09.29-20.16.21:108][956]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2017.09.29-20.16.21:112][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003246s)
+[2017.09.29-20.16.21:112][956]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.16.21:112][956]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2017.09.29-20.16.21:112][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.003908s)
+[2017.09.29-20.16.21:125][956]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.16.21:131][956]LogInit: FAudioDevice initialized.
+[2017.09.29-20.16.21:162][956]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.29-20.16.21:162][956]LogLoad: Game class is 'GameModeBase'
+[2017.09.29-20.16.21:164][956]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2017.09.29-13.16.21
+[2017.09.29-20.16.21:164][956]LogWorld: Bringing up level for play took: 0.001395
+[2017.09.29-20.16.21:165][956]LogScriptCore: Warning: Script Msg: Attempted to set an invalid index on array CorrectFormula [7/6]!
+[2017.09.29-20.16.21:165][956]LogBlueprintUserMessages: [TeacherCuldrun_754] SetCorrect
+[2017.09.29-20.16.21:165][956]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.492
+[2017.09.29-20.16.34:508][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-20.16.34:508][542]PIE: New page: SIE session: StartupMap (Sep 29, 2017, 6:16:34 AM)
+[2017.09.29-20.16.34:508][542]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2017.09.29-20.16.34:511][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003266s)
+[2017.09.29-20.16.34:512][542]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.16.34:512][542]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2017.09.29-20.16.34:512][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.003881s)
+[2017.09.29-20.16.34:525][542]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.16.34:532][542]LogInit: FAudioDevice initialized.
+[2017.09.29-20.16.34:559][542]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.29-20.16.34:559][542]LogLoad: Game class is 'GameModeBase'
+[2017.09.29-20.16.34:561][542]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2017.09.29-13.16.34
+[2017.09.29-20.16.34:561][542]LogWorld: Bringing up level for play took: 0.001439
+[2017.09.29-20.16.34:562][542]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.29-20.16.34:562][542]LogScriptCore: Warning: Script Msg: Attempted to set an invalid index on array CorrectFormula [7/6]!
+[2017.09.29-20.16.34:562][542]LogBlueprintUserMessages: [TeacherCuldrun_754] SetCorrect
+[2017.09.29-20.16.34:562][542]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.11
+[2017.09.29-20.17.00:544][509]LogEditorViewport: Clicking on Actor (LMB): TeacherCuldrun_C (TeacherCuldrun)
+[2017.09.29-20.17.03:066][804]LogEditorViewport: Clicking on Actor (LMB): TeacherCuldrun_C (TeacherCuldrun)
+[2017.09.29-20.17.04:922][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.17.06:025][151]Cmd: EDIT COPY
+[2017.09.29-20.17.06:429][199]Cmd: EDIT PASTE
+[2017.09.29-20.17.13:329][ 17]LogEditorViewport: Clicking on Actor (LMB): TeacherCuldrun_C (TeacherCuldrun)
+[2017.09.29-20.17.22:250][ 75]LogTemp: Repeating last play command: Simulate
+[2017.09.29-20.17.22:260][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-20.17.22:260][ 75]PIE: New page: SIE session: StartupMap (Sep 29, 2017, 6:17:22 AM)
+[2017.09.29-20.17.22:260][ 75]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2017.09.29-20.17.22:264][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003739s)
+[2017.09.29-20.17.22:264][ 75]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-20.17.22:265][ 75]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.09.29-20.17.22:265][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004523s)
+[2017.09.29-20.17.22:281][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-20.17.22:289][ 75]LogInit: FAudioDevice initialized.
+[2017.09.29-20.17.22:319][ 75]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.29-20.17.22:320][ 75]LogLoad: Game class is 'GameModeBase'
+[2017.09.29-20.17.22:321][ 75]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2017.09.29-13.17.22
+[2017.09.29-20.17.22:322][ 75]LogWorld: Bringing up level for play took: 0.001833
+[2017.09.29-20.17.22:322][ 75]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.29-20.17.22:322][ 75]LogScriptCore: Warning: Script Msg: Attempted to set an invalid index on array CorrectFormula [7/6]!
+[2017.09.29-20.17.22:322][ 75]LogBlueprintUserMessages: [TeacherCuldrun_754] SetCorrect
+[2017.09.29-20.17.22:323][ 75]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.35
+[2017.09.29-20.18.23:105][288]LogSavePackage: Save=67.94ms
+[2017.09.29-20.18.23:106][288]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/StartupMap476A338542D017C0B37EBC97554E0D22.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2017.09.29-20.18.23:108][288]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.09.29-20.18.23:202][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/StartupMap_BuiltData" FILE="../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset" SILENT=true
+[2017.09.29-20.18.23:234][288]LogSavePackage: Save=27.75ms
+[2017.09.29-20.18.23:234][288]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/StartupMap_BuiltDataBA62F21A4FFBCF52E05BB6847ACC3647.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2017.09.29-20.18.23:235][288]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2017.09.29-20.19.00:283][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.19.02:269][925]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.02:269][925]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.03:537][ 55]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.03:537][ 55]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.04:638][168]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.04:639][168]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.05:319][238]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.05:319][238]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.06:726][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.19.11:569][882]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.11:569][882]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.12:591][987]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.12:591][987]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.13:493][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-20.19.14:354][175]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.19.14:354][175]PIE: Warning: Mobility of /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.29-20.20.04:740][ 36]LogSavePackage: Save=72.05ms
+[2017.09.29-20.20.04:740][ 36]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/StartupMap9A52BBD848A8081A99B6CC99936A4FEE.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2017.09.29-20.20.04:741][ 36]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.09.29-20.20.04:844][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/StartupMap_BuiltData" FILE="../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset" SILENT=true
+[2017.09.29-20.20.04:864][ 36]LogSavePackage: Save=18.07ms
+[2017.09.29-20.20.04:864][ 36]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/StartupMap_BuiltDataFF13BA524450D004B926B382DDFF3F84.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2017.09.29-20.20.04:864][ 36]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2017.09.29-20.20.10:137][648]SourceControl: fatal: C:/Users/elsbeth.larkin/Documents/UE_4.17/Engine/Content/: 'C:/Users/elsbeth.larkin/Documents/UE_4.17/Engine/Content/' is outside repository
+[2017.09.29-20.20.10:197][648]LogPackageName: Error: Illegal call to DoesPackageExist: '../../../../GitHub/VRacious/WizardSchoolVR/WizardSchoolVR.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.09.29-20.20.10:313][648]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.116 s
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: === Handled ensure: ===
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: 
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 810]
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: Illegal call to DoesPackageExist: '../../../../GitHub/VRacious/WizardSchoolVR/WizardSchoolVR.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: Stack: 
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D4133E36
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D3EBC2D2
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D3ED4746
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000D61D1BA5
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControl.dll!0x00000000EAEA73C2
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControl.dll!0x00000000EAEA7557
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControlWindows.dll!0x00000000C9B378EE
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControlWindows.dll!0x00000000C9AF3755
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControlWindows.dll!0x00000000C9AF2D2D
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-SourceControlWindows.dll!0x00000000C9B07DD4
+[2017.09.29-20.20.10:313][648]LogOutputDevice: Error: UE4Editor-GitSourceControl.dll!0x00000000B59432F9
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor-SourceControl.dll!0x00000000EAEAC27C
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000CF31D0BF
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000CFBAD646
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor.exe!0x00000000FF7B534A
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor.exe!0x00000000FF7C3970
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor.exe!0x00000000FF7C39EA
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor.exe!0x00000000FF7D02D9
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: UE4Editor.exe!0x00000000FF7D1C47
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: KERNEL32.DLL!0x0000000013382774
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: ntdll.dll!0x0000000014C70D51
+[2017.09.29-20.20.10:314][648]LogOutputDevice: Error: 
+[2017.09.29-20.20.10:323][648]LogStats:                SubmitErrorReport -  0.000 s

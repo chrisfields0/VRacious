@@ -1,0 +1,901 @@
+﻿Log file open, 09/29/17 12:46:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: WizardSchoolVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2029069594) SRandInit(2029069594).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.145534
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Display: Disabled plugin 'Wwise', continuing.
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/elsbeth.larkin/Documents/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.29-19.46.19:072][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-19.46.19:072][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.29-19.46.19:093][  0]LogInit: Computer: DIT2864US
+[2017.09.29-19.46.19:093][  0]LogInit: User: elsbethlarkin
+[2017.09.29-19.46.19:093][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.29-19.46.19:093][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2017.09.29-19.46.19:094][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.29-19.46.19:094][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.29-19.46.19:094][  0]LogMemory: Process Physical Memory: 282.44 MB used, 282.44 MB peak
+[2017.09.29-19.46.19:094][  0]LogMemory: Process Virtual Memory: 282.79 MB used, 282.79 MB peak
+[2017.09.29-19.46.19:094][  0]LogMemory: Physical Memory: 8269.53 MB used,  8029.63 MB free, 16299.16 MB total
+[2017.09.29-19.46.19:094][  0]LogMemory: Virtual Memory: 713.70 MB used,  8029.63 MB free, 134217728.00 MB total
+[2017.09.29-19.46.19:232][  0]LogInit: Using OS detected language (en-US).
+[2017.09.29-19.46.19:232][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.29-19.46.19:236][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.29-19.46.19:798][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.29-19.46.19:836][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.29-19.46.19:836][  0]LogD3D11RHI:       4062/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.29-19.46.19:837][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.29-19.46.19:837][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.29-19.46.19:837][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.29-19.46.19:840][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.29-19.46.19:841][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.29-19.46.19:841][  0]LogWindows: EnumDisplayDevices:
+[2017.09.29-19.46.19:841][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.09.29-19.46.19:841][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.29-19.46.19:841][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.29-19.46.19:841][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.29-19.46.19:841][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.29-19.46.19:841][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.29-19.46.19:841][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.09.29-19.46.19:841][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.09.29-19.46.19:841][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.29-19.46.19:864][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.29-19.46.19:872][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.29-19.46.19:963][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../GitHub/VRacious/WizardSchoolVR/Intermediate/Shaders/WorkingDirectory/2796/).
+[2017.09.29-19.46.19:964][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elsbeth.larkin/AppData/Local/Temp/UnrealShaderWorkingDir/5E2725CF462032EC6D51568E80AC613B/'.
+[2017.09.29-19.46.19:964][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.29-19.46.20:791][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.29-19.46.20:826][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.29-19.46.20:865][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.29-19.46.20:901][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.29-19.46.20:939][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.29-19.46.20:978][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.29-19.46.21:016][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.29-19.46.21:053][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.29-19.46.21:084][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.29-19.46.21:120][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.29-19.46.21:156][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.29-19.46.21:192][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.29-19.46.21:228][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.29-19.46.21:262][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.29-19.46.21:299][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.29-19.46.21:373][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.29-19.46.21:373][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.29-19.46.21:400][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.29-19.46.21:473][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.29-19.46.21:495][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.29-19.46.21:533][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.29-19.46.21:568][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.29-19.46.21:604][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.29-19.46.21:640][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.29-19.46.21:640][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.29-19.46.22:002][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.29-19.46.22:339][  0]LogDerivedDataCache: Loaded boot cache 0.34s 97MB C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.29-19.46.22:339][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.29-19.46.22:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/VRacious/WizardSchoolVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.29-19.46.22:339][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.29-19.46.22:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/VRacious/WizardSchoolVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.29-19.46.22:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.29-19.46.22:354][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.29-19.46.22:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.29-19.46.22:372][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.29-19.46.22:372][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.29-19.46.22:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-19.46.22:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-19.46.22:710][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.09.29-19.46.22:802][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-19.46.22:902][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.29-19.46.23:133][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.29-19.46.23:162][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.29-19.46.23:162][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.29-19.46.23:162][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.29-19.46.23:162][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.29-19.46.23:162][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.29-19.46.23:428][  0]LogNetVersion: WizardSchoolVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1273405168)
+[2017.09.29-19.46.23:587][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.033959 seconds
+[2017.09.29-19.46.23:592][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.29-19.46.23:592][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.29-19.46.23:592][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.29-19.46.23:642][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.29-19.46.25:033][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2017.09.29-19.46.26:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.29-19.46.26:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.29-19.46.26:586][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.09.29-19.46.27:039][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.09.29-19.46.27:051][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2017.09.29-19.46.27:076][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.29-19.46.27:080][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2017.09.29-19.46.27:091][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2017.09.29-19.46.27:101][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.09.29-19.46.27:111][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.09.29-19.46.27:119][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.09.29-19.46.27:127][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.09.29-19.46.27:137][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.09.29-19.46.27:147][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2017.09.29-19.46.27:157][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2017.09.29-19.46.27:166][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2017.09.29-19.46.27:175][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2017.09.29-19.46.27:185][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.09.29-19.46.27:195][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.09.29-19.46.27:204][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.09.29-19.46.27:214][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2017.09.29-19.46.27:231][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2017.09.29-19.46.27:242][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2017.09.29-19.46.27:251][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2017.09.29-19.46.27:260][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2017.09.29-19.46.27:653][  0]SourceControl: Source control is disabled
+[2017.09.29-19.46.27:653][  0]SourceControl: Source control is disabled
+[2017.09.29-19.46.27:713][  0]SourceControl: Source control is disabled
+[2017.09.29-19.46.27:769][  0]SourceControl: Source control is disabled
+[2017.09.29-19.46.28:450][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.29-19.46.28:741][  0]LogOcInput: OculusInput pre-init called
+[2017.09.29-19.46.28:986][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.09.29-19.46.29:001][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.09.29-19.46.29:020][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.09.29-19.46.29:042][  0]LogEngine: Initializing Engine...
+[2017.09.29-19.46.29:044][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.29-19.46.29:048][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.09.29-19.46.29:275][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.09.29-19.46.29:785][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.09.29-19.46.29:949][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.09.29-19.46.30:456][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.09.29-19.46.30:961][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.09.29-19.46.31:122][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.09.29-19.46.31:186][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2017.09.29-19.46.31:205][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2017.09.29-19.46.31:221][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2017.09.29-19.46.31:237][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2017.09.29-19.46.31:253][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2017.09.29-19.46.31:269][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2017.09.29-19.46.31:277][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2017.09.29-19.46.31:292][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2017.09.29-19.46.31:322][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2017.09.29-19.46.31:335][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2017.09.29-19.46.31:348][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2017.09.29-19.46.31:359][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2017.09.29-19.46.31:372][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2017.09.29-19.46.31:443][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2017.09.29-19.46.31:457][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2017.09.29-19.46.31:476][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2017.09.29-19.46.31:491][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2017.09.29-19.46.31:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.29-19.46.31:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.29-19.46.31:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.29-19.46.31:775][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-19.46.31:790][  0]LogInit: FAudioDevice initialized.
+[2017.09.29-19.46.31:890][  0]LogDerivedDataCache: Saved boot cache 0.10s 98MB C:/Users/elsbeth.larkin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.29-19.46.32:134][  0]LogInit: Texture streaming: Enabled
+[2017.09.29-19.46.32:282][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.29-19.46.32:537][  0]LogInit: Transaction tracking system initialized
+[2017.09.29-19.46.32:907][  0]BlueprintLog: New page: Editor Load
+[2017.09.29-19.46.33:956][  0]LocalizationService: Localization service is disabled
+[2017.09.29-19.46.34:850][  0]LogConsoleResponse: Display: 
+[2017.09.29-19.46.34:885][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2017.09.29-19.46.34:902][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2017.09.29-19.46.34:915][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2017.09.29-19.46.34:929][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2017.09.29-19.46.34:941][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2017.09.29-19.46.34:956][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2017.09.29-19.46.34:975][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2017.09.29-19.46.34:989][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2017.09.29-19.46.35:002][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2017.09.29-19.46.35:015][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2017.09.29-19.46.35:028][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2017.09.29-19.46.35:041][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2017.09.29-19.46.35:054][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2017.09.29-19.46.35:094][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2017.09.29-19.46.35:136][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.09.29-19.46.35:171][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2017.09.29-19.46.35:202][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.29-19.46.35:202][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.29-19.46.35:202][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.29-19.46.36:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/' took 0.01s
+[2017.09.29-19.46.36:433][  0]SourceControl: Source control is disabled
+[2017.09.29-19.46.36:436][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Users/elsbeth.larkin/Documents/UE_4.17/FeaturePacks/StarterContent.upack)
+[2017.09.29-19.46.36:444][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.09.29-19.46.36:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.09.29-19.46.36:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.09.29-19.46.36:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.09.29-19.46.36:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.09.29-19.46.36:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.09.29-19.46.36:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.09.29-19.46.36:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.09.29-19.46.36:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.09.29-19.46.36:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.09.29-19.46.36:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.09.29-19.46.36:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.09.29-19.46.36:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.09.29-19.46.36:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.09.29-19.46.36:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.09.29-19.46.36:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.09.29-19.46.36:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.09.29-19.46.36:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.09.29-19.46.36:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Fire01.uasset"
+[2017.09.29-19.46.36:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.09.29-19.46.36:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.09.29-19.46.36:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.09.29-19.46.36:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Light01.uasset"
+[2017.09.29-19.46.36:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.09.29-19.46.36:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Light02.uasset"
+[2017.09.29-19.46.36:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.09.29-19.46.36:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.09.29-19.46.36:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.09.29-19.46.36:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.09.29-19.46.36:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.09.29-19.46.36:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.09.29-19.46.36:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.09.29-19.46.36:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.09.29-19.46.36:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.09.29-19.46.36:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Steam01.uasset"
+[2017.09.29-19.46.36:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.09.29-19.46.36:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.09.29-19.46.36:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.09.29-19.46.36:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.09.29-19.46.36:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.09.29-19.46.36:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.09.29-19.46.36:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.09.29-19.46.36:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.09.29-19.46.36:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.09.29-19.46.36:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.09.29-19.46.36:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.09.29-19.46.36:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.09.29-19.46.36:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.09.29-19.46.36:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.09.29-19.46.36:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.09.29-19.46.36:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.09.29-19.46.36:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.09.29-19.46.37:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.09.29-19.46.37:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.09.29-19.46.37:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.09.29-19.46.37:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.09.29-19.46.37:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.09.29-19.46.37:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/StarterMap.umap"
+[2017.09.29-19.46.37:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.09.29-19.46.37:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.09.29-19.46.37:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.09.29-19.46.37:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.09.29-19.46.37:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.09.29-19.46.37:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.09.29-19.46.37:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.09.29-19.46.37:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.09.29-19.46.37:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.09.29-19.46.37:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.09.29-19.46.37:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.09.29-19.46.37:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.09.29-19.46.37:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.09.29-19.46.37:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.09.29-19.46.37:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.09.29-19.46.37:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.09.29-19.46.37:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.09.29-19.46.37:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.09.29-19.46.37:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.09.29-19.46.37:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.09.29-19.46.37:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.09.29-19.46.37:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.09.29-19.46.37:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.09.29-19.46.37:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.09.29-19.46.37:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.09.29-19.46.37:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.09.29-19.46.37:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.09.29-19.46.37:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.09.29-19.46.37:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.09.29-19.46.37:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.09.29-19.46.37:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.09.29-19.46.37:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.09.29-19.46.37:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.09.29-19.46.37:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.09.29-19.46.37:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.09.29-19.46.37:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.09.29-19.46.37:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.09.29-19.46.37:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.09.29-19.46.37:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.09.29-19.46.37:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.09.29-19.46.37:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.09.29-19.46.37:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.09.29-19.46.37:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.09.29-19.46.37:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.09.29-19.46.37:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.09.29-19.46.37:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.09.29-19.46.37:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.09.29-19.46.37:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.09.29-19.46.37:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.09.29-19.46.37:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.09.29-19.46.37:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.09.29-19.46.37:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.09.29-19.46.37:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.09.29-19.46.37:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.09.29-19.46.37:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.09.29-19.46.37:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.09.29-19.46.37:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.09.29-19.46.37:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.09.29-19.46.37:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.09.29-19.46.37:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.09.29-19.46.37:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.09.29-19.46.37:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.09.29-19.46.37:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.09.29-19.46.37:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.09.29-19.46.37:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.09.29-19.46.37:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Door.uasset"
+[2017.09.29-19.46.37:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.09.29-19.46.37:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.09.29-19.46.37:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.09.29-19.46.37:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.09.29-19.46.37:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.09.29-19.46.37:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.09.29-19.46.37:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.09.29-19.46.37:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.09.29-19.46.37:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.09.29-19.46.37:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.09.29-19.46.37:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.09.29-19.46.37:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.09.29-19.46.37:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.09.29-19.46.37:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.09.29-19.46.37:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.09.29-19.46.37:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.09.29-19.46.37:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.09.29-19.46.37:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.09.29-19.46.37:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.09.29-19.46.37:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.09.29-19.46.37:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.09.29-19.46.37:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.09.29-19.46.37:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.09.29-19.46.37:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.09.29-19.46.37:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.09.29-19.46.37:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.09.29-19.46.37:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.09.29-19.46.37:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.09.29-19.46.37:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.09.29-19.46.37:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.09.29-19.46.37:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.09.29-19.46.37:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.09.29-19.46.37:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.09.29-19.46.37:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.09.29-19.46.37:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.09.29-19.46.37:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.09.29-19.46.37:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.09.29-19.46.37:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.09.29-19.46.37:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.09.29-19.46.37:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.09.29-19.46.37:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.09.29-19.46.37:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.09.29-19.46.37:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.09.29-19.46.37:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.09.29-19.46.37:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.09.29-19.46.37:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.09.29-19.46.37:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.09.29-19.46.38:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.09.29-19.46.38:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.09.29-19.46.38:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.09.29-19.46.38:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.09.29-19.46.38:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.09.29-19.46.38:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.09.29-19.46.38:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.09.29-19.46.38:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.09.29-19.46.38:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.09.29-19.46.38:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.09.29-19.46.38:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.09.29-19.46.38:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.09.29-19.46.38:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.09.29-19.46.38:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.09.29-19.46.38:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.09.29-19.46.38:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.09.29-19.46.38:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.09.29-19.46.38:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.09.29-19.46.38:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.09.29-19.46.38:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.09.29-19.46.38:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.09.29-19.46.38:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.09.29-19.46.38:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.09.29-19.46.38:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.09.29-19.46.39:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.09.29-19.46.39:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.09.29-19.46.39:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.09.29-19.46.39:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.09.29-19.46.39:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.09.29-19.46.39:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.09.29-19.46.39:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.09.29-19.46.39:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.09.29-19.46.39:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.09.29-19.46.39:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.09.29-19.46.39:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.09.29-19.46.39:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.09.29-19.46.39:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.09.29-19.46.39:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.09.29-19.46.39:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.09.29-19.46.39:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.09.29-19.46.39:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.09.29-19.46.39:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.09.29-19.46.39:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.09.29-19.46.39:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.09.29-19.46.39:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.09.29-19.46.39:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.09.29-19.46.39:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.09.29-19.46.39:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.09.29-19.46.40:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.09.29-19.46.40:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.09.29-19.46.40:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.09.29-19.46.40:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.09.29-19.46.40:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.09.29-19.46.40:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.09.29-19.46.40:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.09.29-19.46.40:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.09.29-19.46.40:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.09.29-19.46.40:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.09.29-19.46.40:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.09.29-19.46.40:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.09.29-19.46.40:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.09.29-19.46.40:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.09.29-19.46.40:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.09.29-19.46.40:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.09.29-19.46.40:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.09.29-19.46.40:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.09.29-19.46.40:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.09.29-19.46.40:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.09.29-19.46.41:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.09.29-19.46.41:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.09.29-19.46.41:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.09.29-19.46.41:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.09.29-19.46.41:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.09.29-19.46.41:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.09.29-19.46.41:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.09.29-19.46.41:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.09.29-19.46.41:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.09.29-19.46.41:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.09.29-19.46.41:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.09.29-19.46.41:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.09.29-19.46.41:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.09.29-19.46.41:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.09.29-19.46.41:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.09.29-19.46.41:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.09.29-19.46.41:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.09.29-19.46.41:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.09.29-19.46.41:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.09.29-19.46.41:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.09.29-19.46.41:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.09.29-19.46.41:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.09.29-19.46.41:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.09.29-19.46.41:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.09.29-19.46.41:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.09.29-19.46.41:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.09.29-19.46.41:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.09.29-19.46.41:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.09.29-19.46.41:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.09.29-19.46.41:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.09.29-19.46.41:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.09.29-19.46.41:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.09.29-19.46.41:832][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.29-19.46.42:010][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 26 NumSamples 1 (Frame:1).
+[2017.09.29-19.46.42:112][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.09.29-19.46.42:129][  0]LogSavePackage: Save=13.67ms
+[2017.09.29-19.46.42:129][  0]LogSavePackage: Moving '../../../../GitHub/VRacious/WizardSchoolVR/Saved/Floor_400x4000F39C9D8477635CCE5BE7DB36E1F1213.tmp' to '../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.09.29-19.46.42:132][  0]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/VRacious/WizardSchoolVR/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.29-19.46.42:133][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.09.29-19.46.42:134][  0]Cmd: MAP LOAD FILE="../../../../GitHub/VRacious/WizardSchoolVR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.29-19.46.42:135][  0]LightingResults: New page: Lighting Build
+[2017.09.29-19.46.42:185][  0]MapCheck: New page: Map Check
+[2017.09.29-19.46.42:185][  0]LightingResults: New page: Lighting Build
+[2017.09.29-19.46.42:374][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.09.29-19.46.42:384][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.29-19.46.42:394][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.29-19.46.42:445][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.699ms to complete.
+[2017.09.29-19.46.42:445][  0]LogFileHelpers: Loading map 'StartupMap' took 0.310
+[2017.09.29-19.46.42:617][  0]LogCollectionManager: Loaded 0 collections in 0.001380 seconds
+[2017.09.29-19.46.42:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Saved/Collections/' took 0.01s
+[2017.09.29-19.46.42:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Developers/elsbethlarkin/Collections/' took 0.01s
+[2017.09.29-19.46.42:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Collections/' took 0.01s
+[2017.09.29-19.46.42:707][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.29-19.46.42:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2390 classes and 502 folders.
+[2017.09.29-19.46.42:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.09.29-19.46.42:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.29-19.46.42:947][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.09.29-19.46.42:968][  0]LogSlate: Took 0.001024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-19.46.42:971][  0]LogSlate: Took 0.001016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.29-19.46.42:977][  0]LogSlate: Took 0.001341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.29-19.46.43:017][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2017.09.29-19.46.43:029][  0]LogRenderer: Reallocating scene render targets to support 980x576 Format 26 NumSamples 1 (Frame:1).
+[2017.09.29-19.46.43:068][  0]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-19.46.43:213][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.09.29-19.46.43:213][  0]LogLoad: (Engine Initialization) Total time: 35.20 seconds
+[2017.09.29-19.46.43:213][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.29-19.46.43:214][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.29-19.46.43:224][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.29-19.46.43:331][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.29-19.46.43:389][  1]LogAssetRegistry: Asset discovery search completed in 20.7008 seconds
+[2017.09.29-19.46.43:392][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.29-19.46.43:392][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.09.29-19.48.50:329][454]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-19.56.26:922][878]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.29-19.56.27:053][879]Cmd: QUIT_EDITOR
+[2017.09.29-19.56.27:071][879]LogExit: Preparing to exit.
+[2017.09.29-19.56.27:528][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/' was aborted.
+[2017.09.29-19.56.27:543][879]LogExit: Editor shut down
+[2017.09.29-19.56.27:546][879]LogExit: Transaction tracking system shut down
+[2017.09.29-19.56.27:671][879]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.29-19.56.27:672][879]LogDirectoryWatcher: A directory notification for '../../../../GitHub/VRacious/WizardSchoolVR/Content/' was aborted.
+[2017.09.29-19.56.27:672][879]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.29-19.56.27:672][879]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.29-19.56.27:673][879]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.29-19.56.27:740][879]LogExit: Object subsystem successfully closed.
+[2017.09.29-19.56.27:768][879]LogD3D11RHI: Shutdown
+[2017.09.29-19.56.27:768][879]LogD3D11RHI: CleanupD3DDevice
+[2017.09.29-19.56.27:812][879]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.29-19.56.27:823][879]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.29-19.56.27:823][879]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.09.29-19.56.27:823][879]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.09.29-19.56.27:823][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.09.29-19.56.27:824][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Collections/' was aborted.
+[2017.09.29-19.56.27:824][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Content/Developers/elsbethlarkin/Collections/' was aborted.
+[2017.09.29-19.56.27:824][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Saved/Collections/' was aborted.
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.29-19.56.27:824][879]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.29-19.56.27:825][879]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.29-19.56.28:502][879]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.29-19.56.28:503][879]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.29-19.56.28:555][879]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.29-19.56.28:555][879]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.29-19.56.28:555][879]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.29-19.56.28:555][879]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.29-19.56.28:556][879]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.29-19.56.28:556][879]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.29-19.56.28:556][879]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.29-19.56.28:557][879]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.29-19.56.28:557][879]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.29-19.56.28:557][879]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.29-19.56.28:559][879]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.29-19.56.28:560][879]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.29-19.56.28:723][879]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.29-19.56.28:724][879]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.29-19.56.28:725][879]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.29-19.56.28:725][879]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.29-19.56.28:726][879]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.29-19.56.28:726][879]LogDirectoryWatcher: A directory notification for 'C:/Users/elsbeth.larkin/Documents/GitHub/VRacious/WizardSchoolVR/Binaries/Win64' was aborted.
+[2017.09.29-19.56.28:726][879]LogModuleManager: Shutting down and abandoning module WizardSchoolVR (262)
+[2017.09.29-19.56.28:726][879]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.29-19.56.28:727][879]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.29-19.56.28:828][879]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.29-19.56.28:928][879]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.29-19.56.28:932][879]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.29-19.56.28:933][879]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.29-19.56.28:934][879]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.29-19.56.28:934][879]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.29-19.56.28:942][879]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.29-19.56.28:943][879]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.29-19.56.28:945][879]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.29-19.56.28:955][879]LogDerivedDataCache: Shutdown
+[2017.09.29-19.56.28:955][879]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.29-19.56.28:955][879]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.29-19.56.28:956][879]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.29-19.56.28:959][879]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.29-19.56.28:959][879]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.29-19.56.28:959][879]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.29-19.56.28:959][879]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.29-19.56.28:960][879]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.29-19.56.28:960][879]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.29-19.56.28:960][879]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.29-19.56.28:960][879]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.29-19.56.28:960][879]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.29-19.56.28:961][879]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.29-19.56.28:962][879]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.29-19.56.28:962][879]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.29-19.56.28:962][879]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.29-19.56.28:962][879]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.29-19.56.28:962][879]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.29-19.56.28:963][879]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.29-19.56.28:964][879]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.29-19.56.28:964][879]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.29-19.56.28:965][879]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.29-19.56.28:965][879]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.29-19.56.28:965][879]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7C477C81-4251-F5F4-F1C0-E4A759442E27%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=9d7f39c04ffb6d6167a99595527e7371%7C64d807d9b33448289d62f8bec5c76ad0%7Cd502dd88-b9c2-46b8-aa34-f75937329476&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.29-19.56.28:976][879]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.29-19.56.28:979][879]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.29-19.56.28:979][879]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.29-19.56.28:980][879]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.29-19.56.28:981][879]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.29-19.56.28:985][879]LogExit: Exiting.
+[2017.09.29-19.56.28:998][879]Log file closed, 09/29/17 12:56:28

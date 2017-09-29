@@ -13,6 +13,12 @@
 			]
 		}
 	],
+	"Plugins": [
+		{
+			"Name": "Wwise",
+			"Enabled": false
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
