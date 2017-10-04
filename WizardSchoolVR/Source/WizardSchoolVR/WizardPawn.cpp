@@ -79,7 +79,7 @@ void AWizardPawn::GrabLeftPressed()
 
 void AWizardPawn::GrabLeftReleased()
 {
-	OnDropItem.Broadcast(this, 0);
+	OnDropItem.ExecuteIfBound(this, 1);
 }
 
 void AWizardPawn::GrabRightPressed()
@@ -95,7 +95,7 @@ void AWizardPawn::GrabRightPressed()
 
 void AWizardPawn::GrabRightReleased()
 {
-	OnDropItem.Broadcast(this, 1);
+	OnDropItem.ExecuteIfBound(this, 1);
 }
 
 void AWizardPawn::UpdateClosestInteractableToHand(USphereComponent* InteractionSphere, bool bForLeftHand)

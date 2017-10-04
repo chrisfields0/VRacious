@@ -39,14 +39,15 @@ void AInteractableItem::Tick(float DeltaTime)
 
 void AInteractableItem::BindToDelegate(AWizardPawn* const Player)
 {
-	Player->OnDropItemDelegate().AddUObject(this, &AInteractableItem::DropItem);
+	Player->OnDropItemDelegate().BindUObject(this, &AInteractableItem::DropItem);
 }
 
 void AInteractableItem::DropItem(AWizardPawn* const Player, int HandThatTriggeredEvent)
 {
 	if (ObjectToLerpTo && static_cast<int>(ObjectToLerpTo->Hand) == HandThatTriggeredEvent)
 	{
-		Player->OnDropItemDelegate().Clear();
+		Player->OnDropItemDelegate().Unbind();
+		
 		FDetachmentTransformRules Rules(EDetachmentRule::KeepWorld, EDetachmentRule::KeepWorld, EDetachmentRule::KeepWorld, false);
 		GetRootComponent()->DetachFromComponent(Rules);
 		SetIsBeingInteractedWith(false);

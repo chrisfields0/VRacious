@@ -7,12 +7,13 @@
 #include "MotionControllerComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SphereComponent.h"
+
 #include "WizardPawn.generated.h"
 
 class AWizardPawn;
 class AInteractableItem;
 
-DECLARE_MULTICAST_DELEGATE_TwoParams(FOnDropItem, AWizardPawn* const, int);
+DECLARE_DELEGATE_TwoParams(FOnDropItem, AWizardPawn* const, int);
 
 UCLASS()
 class WIZARDSCHOOLVR_API AWizardPawn : public APawn
@@ -35,7 +36,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 /*
- * Grab Interaction System Interface
+ * Grab Interaction System 
  */
 public:
 	UFUNCTION(BlueprintCallable, Category = "Grab Interaction System")
@@ -50,41 +51,51 @@ protected:
 	TWeakObjectPtr<AInteractableItem> L_ClosestInteractableItem;
 	TWeakObjectPtr<AInteractableItem> R_ClosestInteractableItem;
 	FOnDropItem OnDropItem;
+
 /*
- *	HMD Character Interface
+ *	HMD Character 
  */
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class USceneComponent* VROrigin;
+	USceneComponent* VROrigin;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* Camera;
-private:
+	UCameraComponent* Camera;
 
 /*
- *	Motion Controller Component Interface
+ *	Motion Controller Components
  */
 protected:
-
-
 	/** Motion controller (left hand) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class UMotionControllerComponent* L_MotionController;
+	UMotionControllerComponent* L_MotionController;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class USkeletalMeshComponent* L_HandMesh;
+	USkeletalMeshComponent* L_HandMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class USphereComponent* L_InteractionBubble;
+	USphereComponent* L_InteractionBubble;
+
 
 	/** Motion controller (right hand) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class UMotionControllerComponent* R_MotionController;
+	UMotionControllerComponent* R_MotionController;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class USkeletalMeshComponent* R_HandMesh;
+	USkeletalMeshComponent* R_HandMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	class USphereComponent* R_InteractionBubble;
-private:
+	USphereComponent* R_InteractionBubble;
+
+/*
+ * Player Input
+ */
+protected:
 	void GrabLeftPressed();
 	void GrabLeftReleased();
 	void GrabRightPressed();
 	void GrabRightReleased();
-	
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartRecordingSpell();
+	UFUNCTION(BlueprintImplementableEvent)
+	void StopRecordingSpell();
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartSpellRecognition();
+	UFUNCTION(BlueprintImplementableEvent)
+	void StopSpellRecognition();
 };
