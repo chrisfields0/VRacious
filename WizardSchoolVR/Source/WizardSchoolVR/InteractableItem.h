@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "MotionControllerComponent.h"
 #include "InteractableItem.generated.h"
+class AWizardPawn;
 
 UCLASS()
 class WIZARDSCHOOLVR_API AInteractableItem : public AActor
@@ -23,16 +25,22 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(BlueprintNativeEvent, Category = "Interactable Item")
-	void LerpPosition(const FVector& EndLocation);
+
 
 /*
  * Grab Iteraction Interface
  */
 public: 
+	
+	/** Setter for the object that this item should start moving towards when the player tries to grab it */
+	void SetObjectToLerpTo(class UMotionControllerComponent* InObject) { ObjectToLerpTo = InObject; }
+	void DropItem(AWizardPawn* const Player, int HandThatTriggeredEvent);
+	void BindToDelegate(AWizardPawn* const Player);
+	
+protected:
+	/** The object that this item should move towards */
+	class UMotionControllerComponent* ObjectToLerpTo;
 
-	UFUNCTION(BlueprintCallable, Category = "Grab Interaction")
-	void ShowRing() {}
 /*
  * Getters and Setters for Properties
  */
