@@ -1,5 +1,0 @@
-C:\Users\elsbeth.larkin\Documents\GitHub\VRacious\WizardSchoolVR\Source\WizardSchoolVR\WizardSchoolVR.Build.cs
-C:\Users\elsbeth.larkin\Documents\GitHub\VRacious\WizardSchoolVR\Plugins\Wwise\Source\AkAudio\AkAudio.Build.cs
-C:\Users\elsbeth.larkin\Documents\GitHub\VRacious\WizardSchoolVR\Plugins\Wwise\Source\AudiokineticTools\AudiokineticTools.Build.cs
-C:\Users\elsbeth.larkin\Documents\GitHub\VRacious\WizardSchoolVR\Source\WizardSchoolVR.Target.cs
-C:\Users\elsbeth.larkin\Documents\GitHub\VRacious\WizardSchoolVR\Source\WizardSchoolVREditor.Target.cs
