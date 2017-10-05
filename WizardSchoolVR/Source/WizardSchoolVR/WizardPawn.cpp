@@ -52,7 +52,6 @@ void AWizardPawn::BeginPlay()
 void AWizardPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
